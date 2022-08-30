@@ -13,6 +13,7 @@ For the model setup, we use dropout rate of 0.3 to avoid overfitting. A fully co
 The output lower than 0.5 would be predicted as 'Not Flipped' and the one with higher than 0.5 would be predicted as 'Flipped'
 
 Model Architecture:
+
 ![image](https://user-images.githubusercontent.com/62399559/187402437-429829c6-2105-4c55-855a-5602008d4249.png)
 
 With a simple CNN architecture, the model achieve over 99% accuracy on the image recognition.
